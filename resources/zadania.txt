@@ -25,8 +25,13 @@
 
  * w jaki sposób zapisywać porównane dane oraz jak je szybciej przetwarzać?
 
- * podaj mi najbardziej skorelowane przebiegi
+ * podaj mi jak najbardziej skorelowane przebiegi:
+ - dla każdej firmy weź najbardziej skorelowane firmy,
+ - czy są ze sobą skorelowane poszczególne sektory gospodarki?
+ - jak to najlepiej wizualizować?
+ - korelacja może być, ale może być inny przebieg dla innych firm(tendencja)
 
- * podziel czas na tak małe interwały, które pokażą najbardzej widoczne tendencjae rynkowe
+ * podziel czas na tak małe interwały, które pokażą najbardzej widoczne tendencjae rynkowe,
+ - podział czasu na interwały, które maksymalizują korelację pomiędzy akcjami firm,
 
 
