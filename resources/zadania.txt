@@ -1,0 +1,32 @@
+1. Napisanie porównywarki akcji giełdowych nasdaq:
+
+ * dla każdej akcji porównaj jej korelacje do innych,
+
+ * zrób to dla każdego dnia,
+
+ * metody porównania akcji powinny być w osobnej klasie(pliku),
+ - I metoda to analiza korelacji,
+
+ * Jakie akcje chcemy pobrać?
+ - wszystkie dostępne
+ - get all s and p stock prices
+ * no data case:
+ - attach dates to dataset,
+ - if no data item case happens: append 'no data case',
+ - do not parse to ndarray until exactly comparing,
+ - when comparing datasets, look where is no data and remove those date lines from both datasets,
+ - parse to ndarray and compare
+
+ * metody porównywania spółek oraz firm:
+ - współczynnik wolumenu
+
+ * jak je lepiej porównywać?
+ - korelacja, wolumen, dłuższy lub krótszy okres czasu
+
+ * w jaki sposób zapisywać porównane dane oraz jak je szybciej przetwarzać?
+
+ * podaj mi najbardziej skorelowane przebiegi
+
+ * podziel czas na tak małe interwały, które pokażą najbardzej widoczne tendencjae rynkowe
+
+
