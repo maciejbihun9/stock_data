@@ -5,6 +5,9 @@ from src.google_finance.stock_analisis.stock_data_manager import StockDataManage
 from datetime import datetime
 # plik nie powinien zawierać klasy
 # poprostu metody
+import threading
+
+
 
 def analize():
     """

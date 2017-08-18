@@ -74,6 +74,5 @@ class StockDataManager:
         Loads data from csv files.
         """
 
-
         for stock_name in s_and_p:
             stock_values = StockDataManager.load_stock_data(stock_name)

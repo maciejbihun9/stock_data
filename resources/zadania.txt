@@ -34,4 +34,58 @@
  * podziel czas na tak małe interwały, które pokażą najbardzej widoczne tendencjae rynkowe,
  - podział czasu na interwały, które maksymalizują korelację pomiędzy akcjami firm,
 
+2. Polepszenie działania mojego systemu:
+
+ * zwiększenie szybkości działania algorytmmu,
+ - program działa zbyt długo,
+ - zaprogramowanie tego wielowątkowo - spróbujemy,
+ - odpalenie porównywania dla każdej z akcji na osobnym wątku,
+ - zwrócenie podobieństw dla każdej z akcji jako return metody,
+ - zwróc trzy najlepsze (najbardziej skorelowane nazwy firm),
+ - dla każdej nazwy odpal nowy wątek,
+ - wyniki wpisuj do konkurencyjnej listy.
+
+ * konkurencyjne zapisanie wyników do pliku:
+ - posortowanie spółek po największej korelacji,
+ - każda firma będzie posiadała swój plik z wynikami(nazwa, korelacja, stosunek wolumenu),
+ - można podzielić pliki na 1rok, dwa lata, 5 lat,
+
+ * Co mogę dalej z tymi danymi robić?:
+ - analiza giełdy poprzez analize sektorów?
+ - przypisanie sektora do danej spółki -> kolejny mining,
+ - wyszukiwanie niedowartościowanych spółek,
+
+ * Zapisanie korelacji spółek do plików:
+ -
+
+ * Odpalenie programu, który dla podanej daty pobierze te dane dla spółek, wyczyści pliki i stworzy analizy na nowo,
+ - w innym przypadku nie potrzeba nic odpalać
+ - podanie dat, podanie spółek do analizy -> pobranie danych dla podanych spółek oraz analiza dla nich,
+ - dla każdego badania zostanie utworzony nowy folder z nazwą(data badania + ilość spólek)
+ - w środku każdego folderu powstanie plik z opisem jakie spółki zostały poddane badaniom
+ - w srodku powsanie folder z nazwą dane oraz folder z nazwą results
+ - results będzie posiadał pliki z każdą spółką oraz ich porównaniami,
+
+ * podejście z bazą danych:
+ - zapisanie cen akcji do bazy danych,
+ - codzienna aktualizacja bazy,
+ - nie wymaga pobierania całości co chwila, tylko dodawanie codziennych wyników,
+ - cotygodniowe dodawanie nowch danych, analiza na całości lub określonym przedziale czasu,
+ - analiza może być prowadzona na określonym przedziale czasu,
+ - pobieranie danych z bazy oraz analiza wszystkich spółek,
+ - utworzenie bazy danych, która będzie aktualizowana,
+ - utworzenie jednej bazy danych dla wszystkich giełd na świecie w jednej bazie,
+ - dodawanie nowych cech na temat danej spółki nie powinno stanowić problemu
+ - powinna też być odrębna baza na temat informacji na temat krajów
+ - póxniej będzie pobieranie danych z kilku takich baz oraz poszukiwanie ukrytych korelacji na
+
+3. Jaki rodzaj przechowywania danych wybrać oraz dzisiaj go wybrać!!!
+
+
+
+3. Rozkminka działania thread execution
+
+ *
+
+
 
